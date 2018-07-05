@@ -1,0 +1,51 @@
+  #grid ul {
+  width: 100px;
+  margin: 0;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #level {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: yellow;
+  }
+  #grid2 {
+    display: gird;
+    grid-row: 100px 600px 100px 600px;
+    border-right: 3px solid blue;
+  }
+  #article {
+    text-align: center;
+  }
+  #article #week {
+    border-bottom: 3px solid blue;
+  }
+  h2 {
+    font-size: 30px;
+    font-style:italic;
+  }
+  .video {
+    margin-top: 30px;
+  }
+  #monday, #tuesday, #wednesday, #thursday, #friday {
+    border-bottom: solid 10px green;
+  }
+  h1 {
+    font-size: 70px;
+    text-align: center;
+    border-bottom: 5px solid blue;
+    margin-bottom: 0px;
+  }
+  #mainImg {
+    margin-top: 30px;
+    margin-left: 350px;
+    text-align: center;
+  }
